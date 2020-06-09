@@ -1,0 +1,97 @@
+2020/05/04 21:53:33 : Warning
+Assets\Scripts\ScrTs2.cs(411,10): warning CS0414: The field 'ScrTs2.isC' is assigned but its value is never used : 
+
+2020/05/04 22:48:45 : Exception
+IOException: Sharing violation on path C:\Users\gx-99\3D Objects\Project\New Unity Project P\Assets\StreamingAssets\DDD.txt : System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+System.IO.File.ReadAllText (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+ScrTs2+<>c__DisplayClass29_0.<MainTextGetV>b__0 (System.Object _) (at Assets/Scripts/ScrTs2.cs:182)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <05f2ac9c8847426992765a22ef6d94ca>:0)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+2020/05/04 23:33:15 : Exception
+NullReferenceException: Object reference not set to an instance of an object : ScrTs2+<>c__DisplayClass29_0.<MainTextGetV>b__0 (System.Object _) (at Assets/Scripts/ScrTs2.cs:181)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <05f2ac9c8847426992765a22ef6d94ca>:0)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+2020/05/05 9:44:58 : Exception
+IOException: Sharing violation on path C:\Users\gx-99\3D Objects\Project\New Unity Project P\Assets\StreamingAssets\aar.txt : System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+System.IO.File.ReadAllText (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+ScrTs2+<>c__DisplayClass29_0.<MainTextGetV>b__0 (System.Object _) (at Assets/Scripts/ScrTs2.cs:182)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <05f2ac9c8847426992765a22ef6d94ca>:0)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+2020/05/05 9:46:10 : Exception
+IOException: Sharing violation on path C:\Users\gx-99\3D Objects\Project\New Unity Project P\Assets\StreamingAssets\aas.txt : System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+System.IO.File.ReadAllText (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+ScrTs2+<>c__DisplayClass29_0.<MainTextGetV>b__0 (System.Object _) (at Assets/Scripts/ScrTs2.cs:182)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <05f2ac9c8847426992765a22ef6d94ca>:0)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+2020/05/05 9:46:29 : Exception
+IOException: Sharing violation on path C:\Users\gx-99\3D Objects\Project\New Unity Project P\Assets\StreamingAssets\aas.txt : System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.IO.StreamReader..ctor (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+System.IO.File.ReadAllText (System.String path) (at <437ba245d8404784b9fbab9b439ac908>:0)
+ScrTs2+<>c__DisplayClass29_0.<MainTextGetV>b__0 (System.Object _) (at Assets/Scripts/ScrTs2.cs:182)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <05f2ac9c8847426992765a22ef6d94ca>:0)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+2020/05/05 11:36:28 : Exception
+NullReferenceException: Object reference not set to an instance of an object : ScrTs2+<>c__DisplayClass60_0+<<AplStart>b__1>d.MoveNext () (at Assets/Scripts/ScrTs2.cs:652)
+--- End of stack trace from previous location where exception was thrown ---
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__6_0 (System.Object state) (at <437ba245d8404784b9fbab9b439ac908>:0)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <05f2ac9c8847426992765a22ef6d94ca>:0)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+2020/05/05 11:44:26 : Exception
+NullReferenceException: Object reference not set to an instance of an object : ScrTs2.ListFStT () (at Assets/Scripts/ScrTs2.cs:542)
+ScrTs2+<>c__DisplayClass60_0.<AplStart>b__2 () (at Assets/Scripts/ScrTs2.cs:649)
+System.Threading.Tasks.Task.InnerInvoke () (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.Threading.Tasks.Task.Execute () (at <437ba245d8404784b9fbab9b439ac908>:0)
+--- End of stack trace from previous location where exception was thrown ---
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.Runtime.CompilerServices.TaskAwaiter.GetResult () (at <437ba245d8404784b9fbab9b439ac908>:0)
+ScrTs2+<>c__DisplayClass60_0+<<AplStart>b__1>d.MoveNext () (at Assets/Scripts/ScrTs2.cs:649)
+--- End of stack trace from previous location where exception was thrown ---
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () (at <437ba245d8404784b9fbab9b439ac908>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__6_0 (System.Object state) (at <437ba245d8404784b9fbab9b439ac908>:0)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <05f2ac9c8847426992765a22ef6d94ca>:0)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
